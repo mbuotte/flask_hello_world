@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <br>
+    <p>{{my_string}}</p>
+    <h4>Current date/time: {{ current_time | datetimefilter }}</h4>
+{% endblock %}
+

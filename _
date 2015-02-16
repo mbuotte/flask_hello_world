@@ -1,0 +1,55 @@
+[2015-02-16 19:59:37 +0000] [29842] [INFO] Starting gunicorn 19.2.1
+[2015-02-16 19:59:37 +0000] [29842] [INFO] Listening at: http://0.0.0.0:8080 (29842)
+[2015-02-16 19:59:37 +0000] [29842] [INFO] Using worker: sync
+[2015-02-16 19:59:37 +0000] [29847] [INFO] Booting worker with pid: 29847
+[2015-02-16 20:00:51 +0000] [29847] [INFO] Worker exiting (pid: 29847)
+[2015-02-16 20:00:51 +0000] [29842] [INFO] Handling signal: int
+[2015-02-16 20:00:53 +0000] [29842] [INFO] Shutting down: Master
+[2015-02-16 20:04:21 +0000] [29951] [INFO] Starting gunicorn 19.2.1
+[2015-02-16 20:04:21 +0000] [29951] [INFO] Listening at: http://0.0.0.0:8080 (29951)
+[2015-02-16 20:04:21 +0000] [29951] [INFO] Using worker: sync
+[2015-02-16 20:04:21 +0000] [29956] [INFO] Booting worker with pid: 29956
+[2015-02-16 20:04:21 +0000] [29956] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+ImportError: No module named flask_hello_world
+Traceback (most recent call last):
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 503, in spawn_worker
+    worker.init_process()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 116, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/action/thinkful/projects/flask_hello_world/env/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+ImportError: No module named flask_hello_world
+[2015-02-16 20:04:21 +0000] [29956] [INFO] Worker exiting (pid: 29956)
+[2015-02-16 20:05:27 +0000] [29978] [INFO] Starting gunicorn 19.2.1
+[2015-02-16 20:05:27 +0000] [29978] [INFO] Listening at: http://0.0.0.0:8080 (29978)
+[2015-02-16 20:05:27 +0000] [29978] [INFO] Using worker: sync
+[2015-02-16 20:05:27 +0000] [29983] [INFO] Booting worker with pid: 29983
+[2015-02-16 20:07:02 +0000] [29983] [INFO] Worker exiting (pid: 29983)
+[2015-02-16 20:07:02 +0000] [29978] [INFO] Handling signal: int
+[2015-02-16 20:07:02 +0000] [29978] [INFO] Shutting down: Master
+[2015-02-16 20:14:37 +0000] [30184] [INFO] Starting gunicorn 19.2.1
+[2015-02-16 20:14:37 +0000] [30184] [INFO] Listening at: http://0.0.0.0:8080 (30184)
+[2015-02-16 20:14:37 +0000] [30184] [INFO] Using worker: sync
+[2015-02-16 20:14:37 +0000] [30189] [INFO] Booting worker with pid: 30189
+[2015-02-16 20:14:55 +0000] [30189] [INFO] Worker exiting (pid: 30189)
+[2015-02-16 20:14:55 +0000] [30184] [INFO] Handling signal: int
+[2015-02-16 20:14:55 +0000] [30184] [INFO] Shutting down: Master
